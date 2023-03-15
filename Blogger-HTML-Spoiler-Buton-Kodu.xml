@@ -1,0 +1,9 @@
+<!--Spoiler Butonu-->
+<br />
+<b>Spoiler_Başlığı:</b><button onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}" title="İçeriği Görmek/Gizlemek için tıklayın" type="button">Göster/Gizle</button>
+<div id="spoiler" style="display: none;">
+<p style="border-width:1px; border-style:solid; border-color:#000000; padding: 1em;">
+    Spoiler_içine_yazılacak_metin_veya_görsel
+</p>
+</div>
+<br />
